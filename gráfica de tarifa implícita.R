@@ -22,9 +22,9 @@ graf <- data_raw %>%
   geom_smooth(se = FALSE, linetype = "dashed", color = "red", size = 1.1) +
   theme( axis.title.y = element_blank(),axis.title.x = element_blank(), 
          legend.title=element_blank(),panel.background = element_blank(),
-         axis.text = element_text(size = 10, color = "#000f1c", face = "bold", family = 'Century Gothic'),
-         legend.text = element_text(size = 10, color = "#000f1c", face = "bold", family = 'Century Gothic'),
-         text = element_text(size = 10, color = "#000f1c", face = "bold", family = 'Century Gothic'),
+         axis.text = element_text(size = 10, color = "#17406D", face = "bold", family = 'Century Gothic'),
+         legend.text = element_text(size = 10, color = "#17406D", face = "bold", family = 'Century Gothic'),
+         text = element_text(size = 10, color = "#17406D", face = "bold", family = 'Century Gothic'),
          axis.text.x = element_text(angle = 360, vjust = 0.5, hjust=1)) +
    scale_y_continuous(labels = function(x) paste0(x*100, "%")) +
   scale_x_continuous(labels = comma)
